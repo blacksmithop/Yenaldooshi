@@ -113,3 +113,26 @@ def _getAvatarObjects(items: List[Dict[str, Union[str, Dict]]]):
             print(e)
             print(item)
     return itemList
+
+class ProfileIcons(BaseModel):
+    id: str
+    name: str
+    rarity: str
+
+def getIconName(name: str):
+    parts = name.split(":")
+    icon = parts[1]
+    return icon
+
+def _getProfileIconObjects(profile_icons: List[Dict[str, Union[str, Dict]]]):
+    profileIconList = []
+    for icon in profile_icons:
+        try:
+            entry = ProfileIcons(**icon)
+            entry.name = getIconName(entry.name)
+
+            profileIconList.append(entry)
+        except Exception as e:
+            print(e)
+            print(icon)
+    return profileIconList

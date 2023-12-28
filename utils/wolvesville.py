@@ -4,7 +4,8 @@ from utils.models import (
     _getRoleIconObjects,
     _mapRoleRoleIcons,
     _getScreenObjects,
-    _getAvatarObjects
+    _getAvatarObjects,
+    _getProfileIconObjects
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -52,4 +53,9 @@ class Wolvesville:
     def getItems(self):
         screens = requests.get(f"{self.url}/items/avatarItems", headers=self.headers).json()
         resp = _getAvatarObjects(items=screens)
+        return resp
+    
+    def getProfileIcons(self):
+        icons = requests.get(f"{self.url}/items/profileIcons", headers=self.headers).json()
+        resp = _getProfileIconObjects(profile_icons=icons)
         return resp

@@ -1,11 +1,11 @@
 import streamlit as st
 from utils.wolvesville import Wolvesville
-from utils.models import Role
+from utils.models import AvatarItems
 from typing import List
 
 api = Wolvesville()
 
-items: List[Role] = api.getItems()
+items: List[AvatarItems] = api.getItems()
 
 st.title("Avatar Items")
 
