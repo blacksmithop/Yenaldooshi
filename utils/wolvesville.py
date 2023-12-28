@@ -7,8 +7,11 @@ load_dotenv()
 
 
 class Wolvesville:
-    def __init__(self):
-        API_KEY = getenv("API_KEY")
+    def __init__(self, api_key=None):
+        if api_key == None:
+            API_KEY = getenv("API_KEY")
+        else:
+            API_KEY = api_key
         self.headers = {"Authorization": f"Bot {API_KEY}"}
         self.url = "https://api.wolvesville.com"
 
