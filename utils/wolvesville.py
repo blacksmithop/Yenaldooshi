@@ -3,7 +3,8 @@ from utils.models import (
     _getEmojiObjects,
     _getRoleIconObjects,
     _mapRoleRoleIcons,
-    _getScreenObjects
+    _getScreenObjects,
+    _getAvatarObjects
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -44,6 +45,11 @@ class Wolvesville:
         return resp
 
     def getScreens(self):
-        screens = requests.get(f"{self.url}/items/loadingScreens", headers=self.headers).json()
-        resp = _getScreenObjects(screens=screens)
+            screens = requests.get(f"{self.url}/items/loadingScreens", headers=self.headers).json()
+            resp = _getScreenObjects(screens=screens)
+            return resp
+
+    def getItems(self):
+        screens = requests.get(f"{self.url}/items/avatarItems", headers=self.headers).json()
+        resp = _getAvatarObjects(items=screens)
         return resp

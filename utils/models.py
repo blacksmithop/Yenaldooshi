@@ -95,3 +95,21 @@ def _getScreenObjects(screens: List[Dict[str, Union[str, Dict]]]):
             print(e)
             print(screen)
     return screenList
+
+class AvatarItems(BaseModel):
+    id: str
+    imageUrl: str
+    type: str
+    rarity: str
+    costInGold: int = 0
+
+def _getAvatarObjects(items: List[Dict[str, Union[str, Dict]]]):
+    itemList = []
+    for item in items:
+        try:
+            entry = AvatarItems(**item)
+            itemList.append(entry)
+        except Exception as e:
+            print(e)
+            print(item)
+    return itemList
