@@ -19,6 +19,6 @@ for item in items[:5]:
     st.subheader(itemType)
     rarity = item.rarity.title()
     st.markdown(rarity)
-    st.markdown(f"{item.costInGold} 🪙")
+    st.button(f"{item.costInGold} 🪙", key=item.id)
 
     st.divider()

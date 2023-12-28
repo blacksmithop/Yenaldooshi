@@ -5,7 +5,9 @@ from utils.models import (
     _mapRoleRoleIcons,
     _getScreenObjects,
     _getAvatarObjects,
-    _getProfileIconObjects
+    _getProfileIconObjects,
+    _getEmojiCollectionObjects,
+    _mapEmojiCollections
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -44,18 +46,35 @@ class Wolvesville:
         emojis = requests.get(f"{self.url}/items/emojis", headers=self.headers).json()
         resp = _getEmojiObjects(emojis=emojis)
         return resp
+    
+    def getEmojiCollections(self):
+        emojis = requests.get(f"{self.url}/items/emojiCollections", headers=self.headers).json()
+        resp = _getEmojiCollectionObjects(emojis=emojis)
+        return resp
 
+    def getEmojiAsCollections(self):
+        emojis = self.getEmojis()
+        collections = self.getEmojiCollections()
+        mapping = _mapEmojiCollections(emojis=emojis, collections=collections)
+        return mapping
+    
     def getScreens(self):
-            screens = requests.get(f"{self.url}/items/loadingScreens", headers=self.headers).json()
-            resp = _getScreenObjects(screens=screens)
-            return resp
+        screens = requests.get(
+            f"{self.url}/items/loadingScreens", headers=self.headers
+        ).json()
+        resp = _getScreenObjects(screens=screens)
+        return resp
 
     def getItems(self):
-        screens = requests.get(f"{self.url}/items/avatarItems", headers=self.headers).json()
+        screens = requests.get(
+            f"{self.url}/items/avatarItems", headers=self.headers
+        ).json()
         resp = _getAvatarObjects(items=screens)
         return resp
-    
+
     def getProfileIcons(self):
-        icons = requests.get(f"{self.url}/items/profileIcons", headers=self.headers).json()
+        icons = requests.get(
+            f"{self.url}/items/profileIcons", headers=self.headers
+        ).json()
         resp = _getProfileIconObjects(profile_icons=icons)
         return resp

@@ -46,6 +46,17 @@ class Emoji(BaseModel):
     event: str = None
 
 
+class EmojiCollection(BaseModel):
+    id: str
+    emojiIds: List[str]
+    promoImageUrl: str
+    promoImagePrimaryColor: str
+    iconUrl: str
+    bonusLoadingScreenId: str
+    bonusMinItemCount: int
+    emojis: List[Emoji] = []
+
+
 def _getEmojiObjects(emojis: List[Dict[str, Union[str, Dict]]]):
     emojiList = []
     for emoji in emojis:
@@ -57,6 +68,23 @@ def _getEmojiObjects(emojis: List[Dict[str, Union[str, Dict]]]):
             print(emoji)
     return emojiList
 
+def _getEmojiCollectionObjects(emojis: List[Dict[str, Union[str, Dict]]]):
+    emojCollectioniList = []
+    for emoji in emojis:
+        try:
+            entry = EmojiCollection(**emoji)
+            emojCollectioniList.append(entry)
+        except Exception as e:
+            print(e)
+            print(emoji)
+    return emojCollectioniList
+
+def _mapEmojiCollections(emojis, collections):
+    for item in collections:
+        emojiIds = item.emojiIds
+        emojis = [emoji for emoji in emojis if emoji.id in emojiIds]
+        item.emojis = emojis
+    return collections
 
 def _getRoleIconObjects(icons: List[Dict[str, Union[str, Dict]]]):
     roleIconList = []
@@ -85,6 +113,7 @@ class LoadingScreen(BaseModel):
     imageWide: Image
     imagePrimaryColor: str
 
+
 def _getScreenObjects(screens: List[Dict[str, Union[str, Dict]]]):
     screenList = []
     for screen in screens:
@@ -96,12 +125,14 @@ def _getScreenObjects(screens: List[Dict[str, Union[str, Dict]]]):
             print(screen)
     return screenList
 
+
 class AvatarItems(BaseModel):
     id: str
     imageUrl: str
     type: str
     rarity: str
     costInGold: int = 0
+
 
 def _getAvatarObjects(items: List[Dict[str, Union[str, Dict]]]):
     itemList = []
@@ -114,15 +145,18 @@ def _getAvatarObjects(items: List[Dict[str, Union[str, Dict]]]):
             print(item)
     return itemList
 
+
 class ProfileIcons(BaseModel):
     id: str
     name: str
     rarity: str
 
+
 def getIconName(name: str):
     parts = name.split(":")
     icon = parts[1]
     return icon
+
 
 def _getProfileIconObjects(profile_icons: List[Dict[str, Union[str, Dict]]]):
     profileIconList = []
