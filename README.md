@@ -1,3 +1,4 @@
+---
 title: Wolvesville App
 emoji: 🐺
 colorFrom: blue
@@ -8,3 +9,4 @@ app_file: app.py
 tags:
   - wolvesville
 pinned: true
+---
