@@ -1,0 +1,3312 @@
+[
+    {
+        "id": "yqP",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_xmas_medium_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "medium"
+    },
+    {
+        "id": "DIR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_berserk_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-berserk"
+    },
+    {
+        "id": "nOJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_bomber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bomber"
+    },
+    {
+        "id": "eTo",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_flagger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flagger"
+    },
+    {
+        "id": "JOT",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_gunner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gunner"
+    },
+    {
+        "id": "17y",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_tough_guy_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "tough-guy"
+    },
+    {
+        "id": "zGl",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_violinist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "violinist"
+    },
+    {
+        "id": "xRM",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_wolf-pacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-pacifist"
+    },
+    {
+        "id": "U-m",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_alphawerewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alpha-werewolf"
+    },
+    {
+        "id": "m0c",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_auraseer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "aura-seer"
+    },
+    {
+        "id": "nWL",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_flowerchild_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flower-child"
+    },
+    {
+        "id": "B-V",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_forger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "forger"
+    },
+    {
+        "id": "DkW",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_headhunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "headhunter"
+    },
+    {
+        "id": "5qC",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_instigator_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "instigator"
+    },
+    {
+        "id": "CiR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_ritualist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ritualist"
+    },
+    {
+        "id": "jOl",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_assassin_warden_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "warden"
+    },
+    {
+        "id": "bc4",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_evildetective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "evil-detective"
+    },
+    {
+        "id": "7VD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_xmas_gunner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gunner"
+    },
+    {
+        "id": "ST3",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_headhunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "headhunter"
+    },
+    {
+        "id": "A9B",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_xmas_marksman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "marksman"
+    },
+    {
+        "id": "jj9",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cyberpunk_arsonist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "arsonist"
+    },
+    {
+        "id": "Ynd",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_alchemist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alchemist"
+    },
+    {
+        "id": "H6b",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_alpha_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alpha-werewolf"
+    },
+    {
+        "id": "S4O",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_analyst_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "analyst"
+    },
+    {
+        "id": "VOd",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_arsonist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "arsonist"
+    },
+    {
+        "id": "ULu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_astronomer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "astronomer"
+    },
+    {
+        "id": "eo9",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_aura_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "aura-seer"
+    },
+    {
+        "id": "lAf",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_avenger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "avenger"
+    },
+    {
+        "id": "JnX",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_baker_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "baker"
+    },
+    {
+        "id": "a6V",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_bandit_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bandit"
+    },
+    {
+        "id": "Mdr",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_beast_hunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "beast-hunter"
+    },
+    {
+        "id": "y49",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_bellringer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bellringer"
+    },
+    {
+        "id": "Cww",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_bodyguard_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bodyguard"
+    },
+    {
+        "id": "Qyp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_bomber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bomber"
+    },
+    {
+        "id": "oRy",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_cannibal_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cannibal"
+    },
+    {
+        "id": "rqc",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_corruptor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "corruptor"
+    },
+    {
+        "id": "cns",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_cupid_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cupid"
+    },
+    {
+        "id": "OYC",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_cursed_human_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cursed-human"
+    },
+    {
+        "id": "UEJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_detective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "detective"
+    },
+    {
+        "id": "7Jf",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_doctor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "doctor"
+    },
+    {
+        "id": "WQZ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_evildetective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "evil-detective"
+    },
+    {
+        "id": "Sqb",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_flagger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flagger"
+    },
+    {
+        "id": "8o1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_flower_child_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flower-child"
+    },
+    {
+        "id": "Qul",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_fool_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "fool"
+    },
+    {
+        "id": "E4e",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_forger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "forger"
+    },
+    {
+        "id": "4yw",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_gambler_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gambler"
+    },
+    {
+        "id": "wcm",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_ghostlady_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ghost-lady"
+    },
+    {
+        "id": "QrM",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_graverobber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grave-robber"
+    },
+    {
+        "id": "cAQ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_grumpy_grandma_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grumpy-grandma"
+    },
+    {
+        "id": "8NV",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_guardian_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "guardian-wolf"
+    },
+    {
+        "id": "l2M",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_gunner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gunner"
+    },
+    {
+        "id": "FkY",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_harlot_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "harlot"
+    },
+    {
+        "id": "Y2-",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_headhunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "headhunter"
+    },
+    {
+        "id": "RS1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_illusionist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "illusionist"
+    },
+    {
+        "id": "TmJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_instigator_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "instigator"
+    },
+    {
+        "id": "pBn",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_jailer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jailer"
+    },
+    {
+        "id": "aTS",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_junior_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "junior-werewolf"
+    },
+    {
+        "id": "5FY",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_kitten_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "kitten-wolf"
+    },
+    {
+        "id": "T0P",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_loudmouth_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "loudmouth"
+    },
+    {
+        "id": "ctp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_marksman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "marksman"
+    },
+    {
+        "id": "8E1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_mayor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "mayor"
+    },
+    {
+        "id": "uqY",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_medium_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "medium"
+    },
+    {
+        "id": "78u",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_mortician_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "mortician"
+    },
+    {
+        "id": "URE",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_nightmare_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "nightmare-werewolf"
+    },
+    {
+        "id": "Xw1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_nightwatchman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "night-watchman"
+    },
+    {
+        "id": "iud",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_pacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "pacifist"
+    },
+    {
+        "id": "W88",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_preacher_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "preacher"
+    },
+    {
+        "id": "D5r",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_priest_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "priest"
+    },
+    {
+        "id": "PPY",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_ritualist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ritualist"
+    },
+    {
+        "id": "v6D",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_sect_leader_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sect-leader"
+    },
+    {
+        "id": "Zx1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_seer_apprentice_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "seer-apprentice"
+    },
+    {
+        "id": "-ep",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "seer"
+    },
+    {
+        "id": "in7",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_serial_killer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "serial-killer"
+    },
+    {
+        "id": "Jg8",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_shadow_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "shadow-wolf"
+    },
+    {
+        "id": "CB7",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_sheriff_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sheriff"
+    },
+    {
+        "id": "Rfk",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_sorcerer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sorcerer"
+    },
+    {
+        "id": "0RD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_spirit_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "spirit-seer"
+    },
+    {
+        "id": "PG1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_splitwolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "split-wolf"
+    },
+    {
+        "id": "_YB",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_stubborn_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "stubborn-werewolf"
+    },
+    {
+        "id": "hQD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_tough_guy_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "tough-guy"
+    },
+    {
+        "id": "0TF",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_trapper_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "trapper"
+    },
+    {
+        "id": "fky",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_vigilante_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "vigilante"
+    },
+    {
+        "id": "EDo",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_violinist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "violinist"
+    },
+    {
+        "id": "ENg",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_voodoo_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "voodoo-werewolf"
+    },
+    {
+        "id": "GpP",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_warden_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "warden"
+    },
+    {
+        "id": "SM6",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_werewolf_berserk_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-berserk"
+    },
+    {
+        "id": "rVk",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_werewolffan_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-fan"
+    },
+    {
+        "id": "1AK",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_witch_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "witch"
+    },
+    {
+        "id": "w2_",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_wolf_pacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-pacifist"
+    },
+    {
+        "id": "HwE",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_wolf_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-seer"
+    },
+    {
+        "id": "V9X",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_wolf_shaman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-shaman"
+    },
+    {
+        "id": "V1J",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_wolf_summoner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-summoner"
+    },
+    {
+        "id": "IbG",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_wolf_trickster_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-trickster"
+    },
+    {
+        "id": "Cb2",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_zombie_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "zombie"
+    },
+    {
+        "id": "u8f",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_conjuror_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "conjuror"
+    },
+    {
+        "id": "0J6",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_cupid_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cupid"
+    },
+    {
+        "id": "RI_",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_harlot_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "harlot"
+    },
+    {
+        "id": "laL",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_illusionist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "illusionist"
+    },
+    {
+        "id": "I_5",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_medium_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "medium"
+    },
+    {
+        "id": "ou6",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_preacher_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "preacher"
+    },
+    {
+        "id": "xWC",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_serial_killer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "serial-killer"
+    },
+    {
+        "id": "pZo",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_shadow_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "shadow-wolf"
+    },
+    {
+        "id": "ujM",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_darkmagic_witch_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "witch"
+    },
+    {
+        "id": "00g",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_minival23_fool_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "fool"
+    },
+    {
+        "id": "v4l",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_minival23_gunner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gunner"
+    },
+    {
+        "id": "WPI",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_xmas_bomber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bomber"
+    },
+    {
+        "id": "uZh",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_xmas_cursed_human_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cursed-human"
+    },
+    {
+        "id": "lkh",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_jailer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jailer"
+    },
+    {
+        "id": "eKV",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_marksman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "marksman"
+    },
+    {
+        "id": "JsG",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_mayor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "mayor"
+    },
+    {
+        "id": "HsA",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_nurse_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "doctor"
+    },
+    {
+        "id": "uZe",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_pacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "pacifist"
+    },
+    {
+        "id": "oYB",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_sectleader_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sect-leader"
+    },
+    {
+        "id": "41G",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_toughguy_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "tough-guy"
+    },
+    {
+        "id": "QPa",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_valentine_vigilante_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "vigilante"
+    },
+    {
+        "id": "Xw4",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_5thbirthday_loudmouth_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "loudmouth"
+    },
+    {
+        "id": "7T-",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_5thbirthday_splitwolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "split-wolf"
+    },
+    {
+        "id": "czs",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_astronomer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "astronomer"
+    },
+    {
+        "id": "81Y",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_avenger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "avenger"
+    },
+    {
+        "id": "V_2",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_bellringer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bellringer"
+    },
+    {
+        "id": "qld",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_corruptor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "corruptor"
+    },
+    {
+        "id": "dg5",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_flower_child_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flower-child"
+    },
+    {
+        "id": "1tN",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_forger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "forger"
+    },
+    {
+        "id": "lKa",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_graverobber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grave-robber"
+    },
+    {
+        "id": "VW4",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_instigator_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "instigator"
+    },
+    {
+        "id": "4z0",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_kitten_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "kitten-wolf"
+    },
+    {
+        "id": "jhs",
+        "rarity": "LEGENDARY",
+        "event": "BUNDLE_OFFER",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_easter_wolffluencer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolffluencer"
+    },
+    {
+        "id": "yCm",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_analyst_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "analyst"
+    },
+    {
+        "id": "F5Q",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_birthday_baker_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "baker"
+    },
+    {
+        "id": "S5O",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_birthday_bomber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bomber"
+    },
+    {
+        "id": "kKb",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_birthday_stubborn_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "stubborn-werewolf"
+    },
+    {
+        "id": "EUC",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_birthday_vigilante_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "vigilante"
+    },
+    {
+        "id": "EV3",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_birthday_zombie_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "zombie"
+    },
+    {
+        "id": "Yi1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_beast_hunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "beast-hunter"
+    },
+    {
+        "id": "r1H",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_bodyguard_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bodyguard"
+    },
+    {
+        "id": "l3T",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_detective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "detective"
+    },
+    {
+        "id": "C-F",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_grumpy_grandma_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grumpy-grandma"
+    },
+    {
+        "id": "M2O",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_warden_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "warden"
+    },
+    {
+        "id": "jgj",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_sheriff_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sheriff"
+    },
+    {
+        "id": "Rvs",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cozy_wolf_summoner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-summoner"
+    },
+    {
+        "id": "EnD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_butcher_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "butcher"
+    },
+    {
+        "id": "5JZ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_wolffluencer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolffluencer"
+    },
+    {
+        "id": "fOJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_jelly_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jelly-wolf"
+    },
+    {
+        "id": "Dsu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_storm_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "storm-wolf"
+    },
+    {
+        "id": "Hx6",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_alpha_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alpha-werewolf"
+    },
+    {
+        "id": "lVX",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_blind_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "blind-werewolf"
+    },
+    {
+        "id": "pq0",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_bully_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bully"
+    },
+    {
+        "id": "J87",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_jelly_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jelly-wolf"
+    },
+    {
+        "id": "laB",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_medium_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "medium"
+    },
+    {
+        "id": "PmP",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_voodoo_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "voodoo-werewolf"
+    },
+    {
+        "id": "nC9",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_ghostlady_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ghost-lady"
+    },
+    {
+        "id": "I-o",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_doctor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "doctor"
+    },
+    {
+        "id": "9MW",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_conjuror_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "conjuror"
+    },
+    {
+        "id": "HBS",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_fairytale_avenger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "avenger"
+    },
+    {
+        "id": "_9Q",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_summercomin_cursed_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cursed-human"
+    },
+    {
+        "id": "HZu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_summercomin_analyst_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "analyst"
+    },
+    {
+        "id": "wmK",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_conjuror_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "conjuror"
+    },
+    {
+        "id": "PtT",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_bomber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bomber"
+    },
+    {
+        "id": "f1l",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_bodyguard_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bodyguard"
+    },
+    {
+        "id": "yQ5",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_flowerchild_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flower-child"
+    },
+    {
+        "id": "Et_",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_cupid_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cupid"
+    },
+    {
+        "id": "cLn",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_spiritseer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "spirit-seer"
+    },
+    {
+        "id": "6fq",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_stubborn_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "stubborn-werewolf"
+    },
+    {
+        "id": "0f2",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_wolfpacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-pacifist"
+    },
+    {
+        "id": "N07",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_alchemist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alchemist"
+    },
+    {
+        "id": "zoz",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pridemonth_flagger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flagger"
+    },
+    {
+        "id": "Adi",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_flagger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flagger"
+    },
+    {
+        "id": "HAi",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_cupid_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cupid"
+    },
+    {
+        "id": "Omi",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_guardian_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "guardian-wolf"
+    },
+    {
+        "id": "h1L",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_nightmare_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "nightmare-werewolf"
+    },
+    {
+        "id": "ll5",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_werewolffan_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-fan"
+    },
+    {
+        "id": "M9c",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "seer"
+    },
+    {
+        "id": "FH3",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_bully_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bully"
+    },
+    {
+        "id": "08-",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp31_cannibal_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cannibal"
+    },
+    {
+        "id": "mAp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_toxic_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "toxic-wolf"
+    },
+    {
+        "id": "eN2",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_siren_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "siren"
+    },
+    {
+        "id": "5VF",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_judge_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "judge"
+    },
+    {
+        "id": "NFp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_confusion_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "confusion-wolf"
+    },
+    {
+        "id": "NPf",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cpdl_cupid_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cupid"
+    },
+    {
+        "id": "idU",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_cpdl_instigator_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "instigator"
+    },
+    {
+        "id": "F5-",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_legendary_card_fortune_teller_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "fortune-teller"
+    },
+    {
+        "id": "l7H",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_instigator_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "instigator"
+    },
+    {
+        "id": "fkT",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_serial_killer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "serial-killer"
+    },
+    {
+        "id": "sDp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_junior_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "junior-werewolf"
+    },
+    {
+        "id": "f5L",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_shadow_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "shadow-wolf"
+    },
+    {
+        "id": "FTI",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_warden_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "warden"
+    },
+    {
+        "id": "Vp4",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_astronomer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "astronomer"
+    },
+    {
+        "id": "4-P",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_guardian_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "guardian-wolf"
+    },
+    {
+        "id": "u7J",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp32_flower_child_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flower-child"
+    },
+    {
+        "id": "f77",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon-berserk-hlw2023.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-berserk"
+    },
+    {
+        "id": "-dU",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon-pumpkinking-hlw2023.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "pumpkin-king"
+    },
+    {
+        "id": "Fgu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_forger.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "forger"
+    },
+    {
+        "id": "6He",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_medium.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "medium"
+    },
+    {
+        "id": "KOs",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_mortician.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "mortician"
+    },
+    {
+        "id": "U5l",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_sectleader.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sect-leader"
+    },
+    {
+        "id": "hAf",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_wolfseer.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-seer"
+    },
+    {
+        "id": "jrZ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_beasthunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "beast-hunter"
+    },
+    {
+        "id": "mTa",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_bodyguard_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bodyguard"
+    },
+    {
+        "id": "vWR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_butcher_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "butcher"
+    },
+    {
+        "id": "dEC",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_evildetective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "evil-detective"
+    },
+    {
+        "id": "Uoi",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_gambler_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gambler"
+    },
+    {
+        "id": "TIS",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_nightmare_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "nightmare-werewolf"
+    },
+    {
+        "id": "y8j",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_violinist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "violinist"
+    },
+    {
+        "id": "2_U",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp33_werewolffan_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-fan"
+    },
+    {
+        "id": "icB",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_bandit.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bandit"
+    },
+    {
+        "id": "15m",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_cursed.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cursed-human"
+    },
+    {
+        "id": "3u_",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_halloween_doctor.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "doctor"
+    },
+    {
+        "id": "3fm",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_wolf_summoner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-summoner"
+    },
+    {
+        "id": "Je6",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_mayor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "mayor"
+    },
+    {
+        "id": "LK-",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_medium_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "medium"
+    },
+    {
+        "id": "S2E",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_mortician_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "mortician"
+    },
+    {
+        "id": "c9Y",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_nightmare_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "nightmare-werewolf"
+    },
+    {
+        "id": "5jz",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_nightwatchman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "night-watchman"
+    },
+    {
+        "id": "Hzd",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_pacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "pacifist"
+    },
+    {
+        "id": "C6g",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_preacher_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "preacher"
+    },
+    {
+        "id": "C2R",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_priest_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "priest"
+    },
+    {
+        "id": "t9T",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_ritualist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ritualist"
+    },
+    {
+        "id": "xg3",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_sect_leader_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sect-leader"
+    },
+    {
+        "id": "Pnl",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_seer_apprentice_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "seer-apprentice"
+    },
+    {
+        "id": "A1j",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "seer"
+    },
+    {
+        "id": "taJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_serial_killer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "serial-killer"
+    },
+    {
+        "id": "4nj",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_shadow_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "shadow-wolf"
+    },
+    {
+        "id": "uts",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_sheriff_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sheriff"
+    },
+    {
+        "id": "5AK",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_sorcerer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sorcerer"
+    },
+    {
+        "id": "IA5",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_spirit_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "spirit-seer"
+    },
+    {
+        "id": "WEQ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_splitwolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "split-wolf"
+    },
+    {
+        "id": "-Ro",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_stubborn_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "stubborn-werewolf"
+    },
+    {
+        "id": "QRd",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_tough_guy_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "tough-guy"
+    },
+    {
+        "id": "7Fo",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_trapper_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "trapper"
+    },
+    {
+        "id": "JPm",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_vigilante_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "vigilante"
+    },
+    {
+        "id": "TsS",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_violinist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "violinist"
+    },
+    {
+        "id": "BgT",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_voodoo_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "voodoo-werewolf"
+    },
+    {
+        "id": "yHJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_warden_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "warden"
+    },
+    {
+        "id": "ztx",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_werewolf_berserk_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-berserk"
+    },
+    {
+        "id": "vN7",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_werewolffan_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "werewolf-fan"
+    },
+    {
+        "id": "5oy",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_witch_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "witch"
+    },
+    {
+        "id": "ZZ0",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_wolf_pacifist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-pacifist"
+    },
+    {
+        "id": "X77",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_wolf_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-seer"
+    },
+    {
+        "id": "ojR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_wolf_shaman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-shaman"
+    },
+    {
+        "id": "tSv",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_zombie_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "zombie"
+    },
+    {
+        "id": "_K0",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_wolf_trickster_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-trickster"
+    },
+    {
+        "id": "I_G",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_storm_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "storm-wolf"
+    },
+    {
+        "id": "mmN",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_conjuror_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "conjuror"
+    },
+    {
+        "id": "sMu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_butcher_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "butcher"
+    },
+    {
+        "id": "4Y6",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_wolffluencer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolffluencer"
+    },
+    {
+        "id": "wVu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_bully_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bully"
+    },
+    {
+        "id": "3S7",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_blind_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "blind-werewolf"
+    },
+    {
+        "id": "QCb",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_confusion_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "confusion-wolf"
+    },
+    {
+        "id": "VZK",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_judge_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "judge"
+    },
+    {
+        "id": "FTc",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_siren_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "siren"
+    },
+    {
+        "id": "J15",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_toxic_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "toxic-wolf"
+    },
+    {
+        "id": "vJq",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_fortune_teller_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "fortune-teller"
+    },
+    {
+        "id": "5jn",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_alchemist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alchemist"
+    },
+    {
+        "id": "9T1",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_alpha_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "alpha-werewolf"
+    },
+    {
+        "id": "Y1a",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_analyst_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "analyst"
+    },
+    {
+        "id": "xR5",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_arsonist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "arsonist"
+    },
+    {
+        "id": "gWb",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_astronomer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "astronomer"
+    },
+    {
+        "id": "SKc",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_aura_seer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "aura-seer"
+    },
+    {
+        "id": "zLK",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_avenger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "avenger"
+    },
+    {
+        "id": "30I",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_baker_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "baker"
+    },
+    {
+        "id": "SK_",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_bandit_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bandit"
+    },
+    {
+        "id": "71S",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_beast_hunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "beast-hunter"
+    },
+    {
+        "id": "2dc",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_bellringer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bellringer"
+    },
+    {
+        "id": "FCd",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_bodyguard_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bodyguard"
+    },
+    {
+        "id": "GvL",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_bomber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bomber"
+    },
+    {
+        "id": "ZFk",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_cannibal_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cannibal"
+    },
+    {
+        "id": "5oT",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_corruptor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "corruptor"
+    },
+    {
+        "id": "lcR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_cupid_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cupid"
+    },
+    {
+        "id": "Rbt",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_cursed_human_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cursed-human"
+    },
+    {
+        "id": "mkb",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_detective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "detective"
+    },
+    {
+        "id": "DnR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_doctor_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "doctor"
+    },
+    {
+        "id": "eMB",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_evildetective_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "evil-detective"
+    },
+    {
+        "id": "MFZ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_flagger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flagger"
+    },
+    {
+        "id": "1n0",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_flower_child_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "flower-child"
+    },
+    {
+        "id": "T_Z",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_fool_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "fool"
+    },
+    {
+        "id": "Vw0",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_forger_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "forger"
+    },
+    {
+        "id": "ZGr",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_gambler_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gambler"
+    },
+    {
+        "id": "VG7",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_graverobber_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grave-robber"
+    },
+    {
+        "id": "RkJ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_grumpy_grandma_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grumpy-grandma"
+    },
+    {
+        "id": "7jH",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_ghostlady_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ghost-lady"
+    },
+    {
+        "id": "eYD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_guardian_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "guardian-wolf"
+    },
+    {
+        "id": "jkQ",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_headhunter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "headhunter"
+    },
+    {
+        "id": "ClX",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_illusionist_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "illusionist"
+    },
+    {
+        "id": "UzS",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_gunner_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "gunner"
+    },
+    {
+        "id": "Imp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_instigator_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "instigator"
+    },
+    {
+        "id": "jsV",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_jailer_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jailer"
+    },
+    {
+        "id": "ito",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_jelly_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jelly-wolf"
+    },
+    {
+        "id": "R3V",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_harlot_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "harlot"
+    },
+    {
+        "id": "NXo",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_junior_werewolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "junior-werewolf"
+    },
+    {
+        "id": "SWS",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_kitten_wolf_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "kitten-wolf"
+    },
+    {
+        "id": "-6b",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_loudmouth_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "loudmouth"
+    },
+    {
+        "id": "RcO",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_mythical_card_marksman_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "marksman"
+    },
+    {
+        "id": "vrz",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_teamrole.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "2Tc",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_vote_manipulator.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "FSR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_support.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "6ef",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_rolechanged.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "akf",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_villagekiller.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "kYm",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_werewolf_strong.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "Nle",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_riviver.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "H2d",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_crowd_control.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "zPu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_werewolf_weak.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "ZSN",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_information.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "951",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_protector.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "vdV",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon-arsonist-beva.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "arsonist"
+    },
+    {
+        "id": "OyY",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon-nightwatchman-beva.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "night-watchman"
+    },
+    {
+        "id": "uAp",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_witch_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "witch"
+    },
+    {
+        "id": "ccX",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bully_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bully"
+    },
+    {
+        "id": "2Xf",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_ghost_lady_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "ghost-lady"
+    },
+    {
+        "id": "3_A",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_jelly_wolf_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jelly-wolf"
+    },
+    {
+        "id": "dfA",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_loudmouth_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "loudmouth"
+    },
+    {
+        "id": "4WD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_pacifist_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "pacifist"
+    },
+    {
+        "id": "J0R",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_split_wolf_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "split-wolf"
+    },
+    {
+        "id": "r_5",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bellringer_winter_filled.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "bellringer"
+    },
+    {
+        "id": "m6p",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_auraseer_advent23.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "aura-seer"
+    },
+    {
+        "id": "tLT",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_kittenwolf_advent23.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "kitten-wolf"
+    },
+    {
+        "id": "M3n",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_werewolf_info.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "u9N",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_control.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "jOu",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_random_info_secondary.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "random-all"
+    },
+    {
+        "id": "Bvi",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_graverobber.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "grave-robber"
+    },
+    {
+        "id": "vHx",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_cannibal.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "cannibal"
+    },
+    {
+        "id": "KGR",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_shamanwolf.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-shaman"
+    },
+    {
+        "id": "adb",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_stormwerewolf.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "storm-wolf"
+    },
+    {
+        "id": "WFo",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_illusionist.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "illusionist"
+    },
+    {
+        "id": "HgD",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_priest.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "priest"
+    },
+    {
+        "id": "aEF",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_wolftrickster.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "wolf-trickster"
+    },
+    {
+        "id": "FK7",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_detective.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "detective"
+    },
+    {
+        "id": "u3Z",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_sorcerer.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "sorcerer"
+    },
+    {
+        "id": "J22",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_jailer.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "jailer"
+    },
+    {
+        "id": "jkE",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_trapper.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "trapper"
+    },
+    {
+        "id": "CTv",
+        "rarity": "LEGENDARY",
+        "image": {
+            "url": "https://cdn.wolvesville.com/roleIcons/icon_bp34_fool.png",
+            "width": 200,
+            "height": 200
+        },
+        "roleId": "fool"
+    }
+]
