@@ -1,4 +1,4 @@
-from utils.models import _getRoleObjects, _getEmojiObjects
+from utils.models import _getRoleObjects, _getEmojiObjects, _getRoleIconObjects, _mapRoleRoleIcons
 from dotenv import load_dotenv
 from os import getenv
 import requests
@@ -20,7 +20,18 @@ class Wolvesville:
         roles = data["roles"]
         resp = _getRoleObjects(roles=roles)
         return resp
+    
+    def getRoleIcons(self):
+        data = requests.get(f"{self.url}/items/roleIcons", headers=self.headers).json()
+        resp = _getRoleIconObjects(icons=data)
+        return resp
 
+    def getRoleRoleIcons(self):
+        roles = self.getRoles()
+        icons = self.getRoleIcons()
+        mapping = _mapRoleRoleIcons(roles=roles, icons=icons)
+        return mapping
+    
     def getEmojis(self):
         emojis = requests.get(f"{self.url}/items/emojis", headers=self.headers).json()
         resp = _getEmojiObjects(emojis=emojis)

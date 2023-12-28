@@ -15,7 +15,13 @@ class Role(BaseModel):
     name: str
     description: str
     image: Image
+    icons: List[str] = None
 
+class RoleIcon(BaseModel):
+    id: str
+    rarity: str
+    image: Image
+    roleId: str
 
 def _getRoleObjects(roles: List[Dict[str, Union[str, Dict]]]):
     roleList = []
@@ -48,3 +54,21 @@ def _getEmojiObjects(emojis: List[Dict[str, Union[str, Dict]]]):
             print(e)
             print(emoji)
     return emojiList
+
+def _getRoleIconObjects(icons: List[Dict[str, Union[str, Dict]]]):
+    roleIconList = []
+    for icon in icons:
+        try:
+            entry = RoleIcon(**icon)
+            roleIconList.append(entry)
+        except Exception as e:
+            print(e)
+            print(icon)
+    return roleIconList
+
+def _mapRoleRoleIcons(roles, icons):
+    for role in roles:
+        id = role.id
+        iconList = [icon.image.url for icon in icons if icon.roleId == id]
+        role.icons = iconList
+    return roles
