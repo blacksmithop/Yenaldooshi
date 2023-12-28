@@ -4,7 +4,7 @@ emoji: 🐺
 colorFrom: blue
 colorTo: gray
 sdk: streamlit
-sdk_version: 3.31.0
+sdk_version: 1.25.0
 app_file: app.py
 tags:
   - wolvesville
