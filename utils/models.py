@@ -17,11 +17,13 @@ class Role(BaseModel):
     image: Image
     icons: List[str] = None
 
+
 class RoleIcon(BaseModel):
     id: str
     rarity: str
     image: Image
     roleId: str
+
 
 def _getRoleObjects(roles: List[Dict[str, Union[str, Dict]]]):
     roleList = []
@@ -55,6 +57,7 @@ def _getEmojiObjects(emojis: List[Dict[str, Union[str, Dict]]]):
             print(emoji)
     return emojiList
 
+
 def _getRoleIconObjects(icons: List[Dict[str, Union[str, Dict]]]):
     roleIconList = []
     for icon in icons:
@@ -66,9 +69,29 @@ def _getRoleIconObjects(icons: List[Dict[str, Union[str, Dict]]]):
             print(icon)
     return roleIconList
 
+
 def _mapRoleRoleIcons(roles, icons):
     for role in roles:
         id = role.id
         iconList = [icon.image.url for icon in icons if icon.roleId == id]
         role.icons = iconList
     return roles
+
+
+class LoadingScreen(BaseModel):
+    id: str
+    rarity: str
+    image: Image
+    imageWide: Image
+    imagePrimaryColor: str
+
+def _getScreenObjects(screens: List[Dict[str, Union[str, Dict]]]):
+    screenList = []
+    for screen in screens:
+        try:
+            entry = LoadingScreen(**screen)
+            screenList.append(entry)
+        except Exception as e:
+            print(e)
+            print(screen)
+    return screenList
