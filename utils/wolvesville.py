@@ -15,6 +15,8 @@ from dotenv import load_dotenv
 from os import getenv
 import requests
 import requests_cache
+from functools import lru_cache
+
 
 requests_cache.install_cache("api_requests")
 
@@ -30,28 +32,33 @@ class Wolvesville:
         self.headers = {"Authorization": f"Bot {API_KEY}"}
         self.url = "https://api.wolvesville.com"
 
+    @lru_cache(maxsize=None)
     def getRoles(self):
         data = requests.get(f"{self.url}/roles", headers=self.headers).json()
         roles = data["roles"]
         resp = _getRoleObjects(roles=roles)
         return resp
 
+    @lru_cache(maxsize=None)
     def getRoleIcons(self):
         data = requests.get(f"{self.url}/items/roleIcons", headers=self.headers).json()
         resp = _getRoleIconObjects(icons=data)
         return resp
 
+    @lru_cache(maxsize=None)
     def getRoleRoleIcons(self):
         roles = self.getRoles()
         icons = self.getRoleIcons()
         mapping = _mapRoleRoleIcons(roles=roles, icons=icons)
         return mapping
 
+    @lru_cache(maxsize=None)
     def getEmojis(self):
         emojis = requests.get(f"{self.url}/items/emojis", headers=self.headers).json()
         resp = _getEmojiObjects(emojis=emojis)
         return resp
 
+    @lru_cache(maxsize=None)
     def getEmojiCollections(self):
         emojis = requests.get(
             f"{self.url}/items/emojiCollections", headers=self.headers
@@ -59,12 +66,14 @@ class Wolvesville:
         resp = _getEmojiCollectionObjects(emojis=emojis)
         return resp
 
+    @lru_cache(maxsize=None)
     def getEmojiAsCollections(self):
         emojis = self.getEmojis()
         collections = self.getEmojiCollections()
         mapping = _mapEmojiCollections(emojis=emojis, collections=collections)
         return mapping
 
+    @lru_cache(maxsize=None)
     def getScreens(self):
         screens = requests.get(
             f"{self.url}/items/loadingScreens", headers=self.headers
@@ -72,6 +81,7 @@ class Wolvesville:
         resp = _getScreenObjects(screens=screens)
         return resp
 
+    @lru_cache(maxsize=None)
     def getItems(self):
         items = requests.get(
             f"{self.url}/items/avatarItems", headers=self.headers
@@ -79,6 +89,7 @@ class Wolvesville:
         resp = _getAvatarObjects(items=items)
         return resp
 
+    @lru_cache(maxsize=None)
     def getItemSets(self):
         itemSets = requests.get(
             f"{self.url}/items/avatarItemSets", headers=self.headers
@@ -86,12 +97,14 @@ class Wolvesville:
         resp = _getAvatarItemSetObjects(items=itemSets)
         return resp
 
+    @lru_cache(maxsize=None)
     def getItemAsSets(self):
         items = self.getItems()
         sets = self.getItemSets()
         mapping = _mapItemItemSets(sets=sets, items=items)
         return mapping
 
+    @lru_cache(maxsize=None)
     def getProfileIcons(self):
         icons = requests.get(
             f"{self.url}/items/profileIcons", headers=self.headers
