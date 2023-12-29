@@ -5,4 +5,4 @@ from utils.helper import getTitle
 
 api = Wolvesville()
 
-st.markdown(getTitle("Wolvesville App"), unsafe_allow_html=True)
+st.markdown(getTitle("Yenaldooshi"), unsafe_allow_html=True)
