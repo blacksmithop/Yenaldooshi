@@ -8,4 +8,4 @@ def chunks(lst: List, n: int):
 
 
 def getTitle(text: str):
-    return f"<h1 style='text-align: center; color: grey;'>{text}</h1>"
+    return f"<h1 style='text-align: center;'>{text}</h1>"
