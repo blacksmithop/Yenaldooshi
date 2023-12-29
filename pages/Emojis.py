@@ -1,6 +1,7 @@
 import streamlit as st
 from utils.wolvesville import Wolvesville
 from utils.models import Emoji, EmojiCollection
+from utils.helper import getTitle
 from typing import List
 
 api = Wolvesville()
@@ -8,7 +9,7 @@ api = Wolvesville()
 collections: List[EmojiCollection] = api.getEmojiAsCollections()
 emojis: List[Emoji] = api.getEmojis()
 
-st.header("Emojis")
+st.markdown(getTitle("Emojis"), unsafe_allow_html=True)
 
 for emoji in emojis[:5]:
     st.subheader(emoji.name.title())
@@ -19,7 +20,7 @@ for emoji in emojis[:5]:
     )
     st.markdown(f"Event: {emoji.event.title() if emoji.event else 'None'}")
 
-st.header("Emoji Collections")
+st.markdown(getTitle("Emoji Collections"), unsafe_allow_html=True)
 
 for item in collections[:5]:
     st.markdown(

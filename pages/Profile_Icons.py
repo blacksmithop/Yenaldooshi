@@ -2,6 +2,7 @@ import streamlit as st
 from utils.wolvesville import Wolvesville
 from utils.models import ProfileIcons
 from typing import List
+from utils.helper import getTitle
 
 api = Wolvesville()
 
@@ -10,6 +11,8 @@ css_example = """
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">                                                                                                    
 """
 st.write(css_example, unsafe_allow_html=True)
+
+st.title("Profile Icons")
 
 
 icons: List[ProfileIcons] = api.getProfileIcons()

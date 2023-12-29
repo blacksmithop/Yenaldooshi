@@ -1,6 +1,7 @@
 import streamlit as st
 from utils.wolvesville import Wolvesville
 from utils.models import AvatarItems, AvatarItemSets
+from utils.helper import getTitle
 from typing import List
 
 api = Wolvesville()
@@ -8,7 +9,7 @@ api = Wolvesville()
 items: List[AvatarItems] = api.getItems()
 itemSets: List[AvatarItemSets] = api.getItemAsSets()
 
-st.title("Avatar Items")
+st.markdown(getTitle("Avatar Items"), unsafe_allow_html=True)
 
 for item in items[:5]:
     st.markdown(
@@ -24,7 +25,7 @@ for item in items[:5]:
 
     st.divider()
 
-st.title("Item Collections")
+st.markdown(getTitle("Item Collections"), unsafe_allow_html=True)
 for item in itemSets[:5]:
     st.markdown(
         f'<img src="{item.promoImageUrl}" style="height: 75%; width:75%;"/>',

@@ -1,13 +1,15 @@
 import streamlit as st
 from utils.wolvesville import Wolvesville
 from utils.models import LoadingScreen
+from utils.helper import getTitle
 from typing import List
 
 api = Wolvesville()
 
 screens: List[LoadingScreen] = api.getScreens()
 
-st.title("Loading Screens")
+st.markdown(getTitle("Loading Screens"), unsafe_allow_html=True)
+
 
 for screen in screens[:5]:
     st.markdown(
