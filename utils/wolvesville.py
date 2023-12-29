@@ -7,7 +7,9 @@ from utils.models import (
     _getAvatarObjects,
     _getProfileIconObjects,
     _getEmojiCollectionObjects,
-    _mapEmojiCollections
+    _mapEmojiCollections,
+    _getAvatarItemSetObjects,
+    _mapItemItemSets
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -46,9 +48,11 @@ class Wolvesville:
         emojis = requests.get(f"{self.url}/items/emojis", headers=self.headers).json()
         resp = _getEmojiObjects(emojis=emojis)
         return resp
-    
+
     def getEmojiCollections(self):
-        emojis = requests.get(f"{self.url}/items/emojiCollections", headers=self.headers).json()
+        emojis = requests.get(
+            f"{self.url}/items/emojiCollections", headers=self.headers
+        ).json()
         resp = _getEmojiCollectionObjects(emojis=emojis)
         return resp
 
@@ -58,6 +62,7 @@ class Wolvesville:
         mapping = _mapEmojiCollections(emojis=emojis, collections=collections)
         return mapping
     
+
     def getScreens(self):
         screens = requests.get(
             f"{self.url}/items/loadingScreens", headers=self.headers
@@ -66,11 +71,24 @@ class Wolvesville:
         return resp
 
     def getItems(self):
-        screens = requests.get(
+        items = requests.get(
             f"{self.url}/items/avatarItems", headers=self.headers
         ).json()
-        resp = _getAvatarObjects(items=screens)
+        resp = _getAvatarObjects(items=items)
         return resp
+
+    def getItemSets(self):
+        itemSets = requests.get(
+            f"{self.url}/items/avatarItemSets", headers=self.headers
+        ).json()
+        resp = _getAvatarItemSetObjects(items=itemSets)
+        return resp
+    
+    def getItemAsSets(self):
+        items = self.getItems()
+        sets = self.getItemSets()
+        mapping = _mapItemItemSets(sets=sets, items=items)
+        return mapping
 
     def getProfileIcons(self):
         icons = requests.get(

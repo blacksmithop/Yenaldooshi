@@ -1,11 +1,12 @@
 import streamlit as st
 from utils.wolvesville import Wolvesville
-from utils.models import AvatarItems
+from utils.models import AvatarItems, AvatarItemSets
 from typing import List
 
 api = Wolvesville()
 
 items: List[AvatarItems] = api.getItems()
+itemSets : List[AvatarItemSets] = api.getItemAsSets()
 
 st.title("Avatar Items")
 
@@ -20,5 +21,22 @@ for item in items[:5]:
     rarity = item.rarity.title()
     st.markdown(rarity)
     st.button(f"{item.costInGold} 🪙", key=item.id)
+
+    st.divider()
+
+st.title("Item Collections")
+for item in itemSets[:5]:
+    st.markdown(
+        f'<img src="{item.promoImageUrl}" style="height: 75%; width:75%;"/>',
+        unsafe_allow_html=True,
+    )
+
+    if item.ids != []:
+        with st.expander("See item sets"):
+            for id in item.ids:
+                st.markdown(
+                    f'<img src="{id}" style="height: 25%; width:25%;"/>',
+                    unsafe_allow_html=True,
+                )
 
     st.divider()

@@ -18,7 +18,7 @@ for emoji in emojis[:5]:
         unsafe_allow_html=True,
     )
     st.markdown(f"Event: {emoji.event.title() if emoji.event else 'None'}")
-    
+
 st.header("Emoji Collections")
 
 for item in collections[:5]:
@@ -40,7 +40,7 @@ for item in collections[:5]:
                     f'<img src="{emoji.urlPreview}" style="height: 100px; width:100px;"/>',
                     unsafe_allow_html=True,
                 )
-                eventName = emoji.event.title() if emoji.event else 'None'
+                eventName = emoji.event.title() if emoji.event else "None"
                 eventName = " ".join(eventName.split("_"))
                 st.markdown(f"Event: {eventName}")
     st.divider()

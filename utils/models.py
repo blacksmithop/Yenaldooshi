@@ -68,6 +68,7 @@ def _getEmojiObjects(emojis: List[Dict[str, Union[str, Dict]]]):
             print(emoji)
     return emojiList
 
+
 def _getEmojiCollectionObjects(emojis: List[Dict[str, Union[str, Dict]]]):
     emojCollectioniList = []
     for emoji in emojis:
@@ -79,12 +80,14 @@ def _getEmojiCollectionObjects(emojis: List[Dict[str, Union[str, Dict]]]):
             print(emoji)
     return emojCollectioniList
 
+
 def _mapEmojiCollections(emojis, collections):
     for item in collections:
         emojiIds = item.emojiIds
         emojis = [emoji for emoji in emojis if emoji.id in emojiIds]
         item.emojis = emojis
     return collections
+
 
 def _getRoleIconObjects(icons: List[Dict[str, Union[str, Dict]]]):
     roleIconList = []
@@ -134,6 +137,14 @@ class AvatarItems(BaseModel):
     costInGold: int = 0
 
 
+class AvatarItemSets(BaseModel):
+    id: str
+    promoImageUrl: str
+    avatarItemIds: List[str]
+    promoImagePrimaryColor: str = None
+    ids: List[AvatarItems] = []
+
+
 def _getAvatarObjects(items: List[Dict[str, Union[str, Dict]]]):
     itemList = []
     for item in items:
@@ -145,6 +156,24 @@ def _getAvatarObjects(items: List[Dict[str, Union[str, Dict]]]):
             print(item)
     return itemList
 
+
+def _getAvatarItemSetObjects(items: List[Dict[str, Union[str, Dict]]]):
+    itemSetList = []
+    for item in items:
+        try:
+            entry = AvatarItemSets(**item)
+            itemSetList.append(entry)
+        except Exception as e:
+            print(e)
+            print(item)
+    return itemSetList
+
+def _mapItemItemSets(sets, items):
+    for setItem in sets:
+        avatarIds = setItem.avatarItemIds
+        ids = [item.imageUrl for item in items if item.id in avatarIds]
+        setItem.ids = ids
+    return sets
 
 class ProfileIcons(BaseModel):
     id: str
