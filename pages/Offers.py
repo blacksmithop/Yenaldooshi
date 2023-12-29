@@ -3,6 +3,8 @@ from utils.helper import chunks, getTitle
 from utils.models import AdvancedRoleCardOffers
 from utils.wolvesville import Wolvesville
 from typing import List
+from uuid import uuid4
+
 
 api = Wolvesville()
 
@@ -17,15 +19,17 @@ for roles in chunks(offerList, CHUNK_SIZE):
     cols = st.columns(CHUNK_SIZE)
     for role, col in zip(roles, cols):
         col.markdown(
-            f'<img src="{role.promoImageUrl}" style="height: 100px; width:100px;"/>',
+            f'<img src="{role.promoImageUrl}" style="height: 75%; width:75%;"/>',
             unsafe_allow_html=True,
         )
 
         advancedRoleId = role.advancedRoleId
         advancedRoleId = " ".join(advancedRoleId.split("-"))
         col.subheader(advancedRoleId)
-        col.button(f"Ability exchange vouchers: {role.abilityExchangeVoucherCount}")
-        col.button(f"Talismans: {role.talismanCount}")
-        col.button(f"Loyalty Tokens: {role.loyaltyTokenCount}")
+        col.button(f"Ability exchange vouchers: {role.abilityExchangeVoucherCount}", key=uuid4().hex)
+        col.button(f"Talismans: {role.talismanCount}", key=uuid4().hex)
+        col.button(f"Loyalty Tokens: {role.loyaltyTokenCount}", key=uuid4().hex)
 
     st.divider()
+
+st.toast("Loaded offers", icon="💰")

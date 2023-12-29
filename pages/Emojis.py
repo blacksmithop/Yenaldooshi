@@ -47,3 +47,5 @@ for item in collections[:5]:
                 eventName = " ".join(eventName.split("_"))
                 st.markdown(f"Event: {eventName}")
     st.divider()
+
+st.toast("Loaded emojis", icon="😎")

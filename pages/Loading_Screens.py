@@ -21,3 +21,5 @@ for screen in screens[:5]:
     st.header(rarity)
 
     st.divider()
+
+st.toast("Loaded screens", icon="🌌")

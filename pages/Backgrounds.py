@@ -42,3 +42,5 @@ for screen in screens[:5]:
         unsafe_allow_html=True,
     )
     st.divider()
+
+st.toast("Loaded backgrounds", icon="🧱")

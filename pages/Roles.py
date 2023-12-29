@@ -40,3 +40,5 @@ for roles in chunks(roles, CHUNK_SIZE):
                     )
 
     st.divider()
+
+st.toast("Loaded roles", icon="🕵️")

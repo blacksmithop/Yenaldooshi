@@ -47,3 +47,5 @@ for item in itemAvatarSets:
                 )
 
     st.divider()
+
+st.toast("Loaded avatar items", icon="🛒")

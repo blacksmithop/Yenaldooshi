@@ -24,3 +24,5 @@ for item in icons:
     st.write(HTML, unsafe_allow_html=True)
 
     st.divider()
+
+st.toast("Loaded icons", icon="🥶")
