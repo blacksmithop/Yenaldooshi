@@ -11,6 +11,7 @@ def chunks(lst: List, n: int):
 def getTitle(text: str):
     return f"<h1 style='text-align: center;'>{text}</h1>"
 
+
 def groupItemCategories(items: Tuple[AvatarItems]):
     groups = {}
     for item in items:

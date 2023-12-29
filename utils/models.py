@@ -202,8 +202,10 @@ def _getProfileIconObjects(profile_icons: List[Dict[str, Union[str, Dict]]]):
             print(icon)
     return profileIconList
 
+
 def getUrl(text: str):
     return text.split("'")[1]
+
 
 class Backgrounds(BaseModel):
     id: str
@@ -236,6 +238,7 @@ class AdvancedRoleCardOffers(BaseModel):
     talismanCount: int
     loyaltyTokenCount: int
     promoImageUrl: str
+
 
 def _getRoleCardOfferObjects(offers: List[Dict[str, Union[str, Dict]]]):
     roleCardOfferList = []

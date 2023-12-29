@@ -11,7 +11,7 @@ from utils.models import (
     _getAvatarItemSetObjects,
     _mapItemItemSets,
     _getBackgroundObjects,
-    _getRoleCardOfferObjects
+    _getRoleCardOfferObjects,
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -82,7 +82,7 @@ class Wolvesville:
         ).json()
         resp = _getScreenObjects(screens=screens)
         return resp
-    
+
     @lru_cache(maxsize=None)
     def getBackgrounds(self):
         backgrounds = requests.get(

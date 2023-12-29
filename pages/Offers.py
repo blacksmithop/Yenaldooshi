@@ -26,7 +26,10 @@ for roles in chunks(offerList, CHUNK_SIZE):
         advancedRoleId = role.advancedRoleId
         advancedRoleId = " ".join(advancedRoleId.split("-"))
         col.subheader(advancedRoleId)
-        col.button(f"Ability exchange vouchers: {role.abilityExchangeVoucherCount}", key=uuid4().hex)
+        col.button(
+            f"Ability exchange vouchers: {role.abilityExchangeVoucherCount}",
+            key=uuid4().hex,
+        )
         col.button(f"Talismans: {role.talismanCount}", key=uuid4().hex)
         col.button(f"Loyalty Tokens: {role.loyaltyTokenCount}", key=uuid4().hex)
 

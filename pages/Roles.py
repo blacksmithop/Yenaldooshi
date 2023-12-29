@@ -3,16 +3,31 @@ from utils.wolvesville import Wolvesville
 from utils.models import Role, AdvancedRoleCardOffers
 from utils.helper import chunks, getTitle
 from typing import List
+
 st.set_page_config(layout="wide")
 
 
 api = Wolvesville()
 
 roles: List[Role] = api.getRoleRoleIcons()
+
 offers: List[AdvancedRoleCardOffers] = api.getRoleCardOffers()
 
 st.markdown(getTitle("Roles"), unsafe_allow_html=True)
 st.divider()
+
+search_bar = st.text_input(
+    "Search roles",
+    "",
+    key="search_roles",
+)
+
+name: str = st.session_state.search_roles
+if name == "":
+    roles = api.getRoleRoleIcons()
+else:
+    roles = [role for role in roles if name.lower() in role.name.lower()]
+
 
 CHUNK_SIZE = 4
 
