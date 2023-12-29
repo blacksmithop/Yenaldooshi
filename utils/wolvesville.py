@@ -14,6 +14,9 @@ from utils.models import (
 from dotenv import load_dotenv
 from os import getenv
 import requests
+import requests_cache
+
+requests_cache.install_cache('api_requests')
 
 load_dotenv()
 

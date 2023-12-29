@@ -34,7 +34,9 @@ for item in collections[:5]:
     if item.emojis != []:
         with st.expander("See role icons"):
             for emoji in item.emojis[:5]:
-                st.subheader(emoji.name.title())
+                name = emoji.name.title()
+                name = " ".join(name.split("_"))
+                st.subheader(name)
                 st.markdown(emoji.rarity.title())
                 st.markdown(
                     f'<img src="{emoji.urlPreview}" style="height: 100px; width:100px;"/>',

@@ -16,6 +16,6 @@ for screen in screens[:5]:
     )
 
     rarity = screen.rarity.title()
-    st.markdown(rarity)
+    st.header(rarity)
 
     st.divider()
