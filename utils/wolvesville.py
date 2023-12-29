@@ -10,7 +10,8 @@ from utils.models import (
     _mapEmojiCollections,
     _getAvatarItemSetObjects,
     _mapItemItemSets,
-    _getBackgroundObjects
+    _getBackgroundObjects,
+    _getRoleCardOfferObjects
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -119,4 +120,12 @@ class Wolvesville:
             f"{self.url}/items/profileIcons", headers=self.headers
         ).json()
         resp = _getProfileIconObjects(profile_icons=icons)
+        return resp
+
+    @lru_cache(maxsize=None)
+    def getRoleCardOffers(self):
+        icons = requests.get(
+            f"{self.url}/items/advancedRoleCardOffers", headers=self.headers
+        ).json()
+        resp = _getRoleCardOfferObjects(offers=icons)
         return resp

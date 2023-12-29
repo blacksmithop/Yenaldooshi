@@ -1,6 +1,6 @@
 import streamlit as st
 from utils.wolvesville import Wolvesville
-from utils.models import Role
+from utils.models import Role, AdvancedRoleCardOffers
 from utils.helper import chunks, getTitle
 from typing import List
 st.set_page_config(layout="wide")
@@ -9,6 +9,7 @@ st.set_page_config(layout="wide")
 api = Wolvesville()
 
 roles: List[Role] = api.getRoleRoleIcons()
+offers: List[AdvancedRoleCardOffers] = api.getRoleCardOffers()
 
 st.markdown(getTitle("Roles"), unsafe_allow_html=True)
 st.divider()

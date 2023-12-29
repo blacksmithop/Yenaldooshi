@@ -226,3 +226,24 @@ def _getBackgroundObjects(backgrounds: List[Dict[str, Union[str, Dict]]]):
             print(e)
             print(icon)
     return backgroundList
+
+
+class AdvancedRoleCardOffers(BaseModel):
+    id: str
+    advancedRoleId: str
+    avatarItemSetId: str
+    abilityExchangeVoucherCount: int
+    talismanCount: int
+    loyaltyTokenCount: int
+    promoImageUrl: str
+
+def _getRoleCardOfferObjects(offers: List[Dict[str, Union[str, Dict]]]):
+    roleCardOfferList = []
+    for icon in offers:
+        try:
+            entry = AdvancedRoleCardOffers(**icon)
+            roleCardOfferList.append(entry)
+        except Exception as e:
+            print(e)
+            print(icon)
+    return roleCardOfferList
