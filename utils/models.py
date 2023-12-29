@@ -201,3 +201,28 @@ def _getProfileIconObjects(profile_icons: List[Dict[str, Union[str, Dict]]]):
             print(e)
             print(icon)
     return profileIconList
+
+def getUrl(text: str):
+    return text.split("'")[1]
+
+class Backgrounds(BaseModel):
+    id: str
+    rarity: str
+    imageNight: Image
+    imageNightWide: Image
+    imageNightSmall: Image
+    imageDay: Image
+    imageDayWide: Image
+    imageDaySmall: Image
+
+
+def _getBackgroundObjects(backgrounds: List[Dict[str, Union[str, Dict]]]):
+    backgroundList = []
+    for icon in backgrounds:
+        try:
+            entry = Backgrounds(**icon)
+            backgroundList.append(entry)
+        except Exception as e:
+            print(e)
+            print(icon)
+    return backgroundList

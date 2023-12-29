@@ -10,6 +10,7 @@ from utils.models import (
     _mapEmojiCollections,
     _getAvatarItemSetObjects,
     _mapItemItemSets,
+    _getBackgroundObjects
 )
 from dotenv import load_dotenv
 from os import getenv
@@ -79,6 +80,14 @@ class Wolvesville:
             f"{self.url}/items/loadingScreens", headers=self.headers
         ).json()
         resp = _getScreenObjects(screens=screens)
+        return resp
+    
+    @lru_cache(maxsize=None)
+    def getBackgrounds(self):
+        backgrounds = requests.get(
+            f"{self.url}/items/backgrounds", headers=self.headers
+        ).json()
+        resp = _getBackgroundObjects(backgrounds=backgrounds)
         return resp
 
     @lru_cache(maxsize=None)
