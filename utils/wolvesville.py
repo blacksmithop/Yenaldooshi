@@ -9,14 +9,14 @@ from utils.models import (
     _getEmojiCollectionObjects,
     _mapEmojiCollections,
     _getAvatarItemSetObjects,
-    _mapItemItemSets
+    _mapItemItemSets,
 )
 from dotenv import load_dotenv
 from os import getenv
 import requests
 import requests_cache
 
-requests_cache.install_cache('api_requests')
+requests_cache.install_cache("api_requests")
 
 load_dotenv()
 
@@ -64,7 +64,6 @@ class Wolvesville:
         collections = self.getEmojiCollections()
         mapping = _mapEmojiCollections(emojis=emojis, collections=collections)
         return mapping
-    
 
     def getScreens(self):
         screens = requests.get(
@@ -86,7 +85,7 @@ class Wolvesville:
         ).json()
         resp = _getAvatarItemSetObjects(items=itemSets)
         return resp
-    
+
     def getItemAsSets(self):
         items = self.getItems()
         sets = self.getItemSets()

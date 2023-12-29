@@ -168,12 +168,14 @@ def _getAvatarItemSetObjects(items: List[Dict[str, Union[str, Dict]]]):
             print(item)
     return itemSetList
 
+
 def _mapItemItemSets(sets, items):
     for setItem in sets:
         avatarIds = setItem.avatarItemIds
         ids = [item.imageUrl for item in items if item.id in avatarIds]
         setItem.ids = ids
     return sets
+
 
 class ProfileIcons(BaseModel):
     id: str

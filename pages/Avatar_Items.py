@@ -6,7 +6,7 @@ from typing import List
 api = Wolvesville()
 
 items: List[AvatarItems] = api.getItems()
-itemSets : List[AvatarItemSets] = api.getItemAsSets()
+itemSets: List[AvatarItemSets] = api.getItemAsSets()
 
 st.title("Avatar Items")
 
