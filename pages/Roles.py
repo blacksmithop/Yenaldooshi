@@ -3,6 +3,8 @@ from utils.wolvesville import Wolvesville
 from utils.models import Role
 from utils.helper import chunks, getTitle
 from typing import List
+st.set_page_config(layout="wide")
+
 
 api = Wolvesville()
 
