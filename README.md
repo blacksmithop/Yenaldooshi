@@ -18,6 +18,8 @@ A Streamlit app to keep track of Wolvesville
 - [x] Roles
   - [x] Role icons
   - [x] Better layout
+  - [x] Search by role
+  - [ ] Add Advanced roles
   - [ ] Filter
 - [x] Emojis
   - [x] Emoji collections
